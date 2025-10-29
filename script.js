@@ -75,8 +75,6 @@ form.addEventListener('submit', function (e) {
     statusMsg.style.color = 'red';
     return;
   }
-
-  
   // If valid, send with EmailJS
   emailjs.send('service_zqc88jn', 'template_gil1enm', {
       from_name: name,
